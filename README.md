@@ -44,3 +44,16 @@ sudo mkdir /data
 ```
 df -h
 ```
+
+## Download transmission-cli
+
+```
+sudo apt update
+sudo apt install transmission-cli
+```
+
+Download.
+
+```
+transmission-cli <torrent_file_or_magnet_link>
+```
